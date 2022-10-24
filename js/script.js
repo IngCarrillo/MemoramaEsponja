@@ -39,7 +39,9 @@ function checar(){
         elemento2.setAttribute("onclick", "");
         console.log("Son iguales");
         document.getElementById("puntos").innerHTML = `Puntos: ${puntos}`;
-        i = 0;
+        setTimeout(() => {
+            i = 0;
+        }, 1000);
     } else {
         console.log("Son diferentes");
         setTimeout(()=>{
