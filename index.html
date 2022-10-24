@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 17</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.css">
+</head>
+<body>
+    <center>
+        <div id="todo">
+            <div id="top">
+                <h3 id="puntos">Puntos: 0</h3>
+            </div>
+            <div class="grid-container flip-card">
+                <!-- Carta #1 -->
+                <div class="grid-item flip-card-inner" foto="bob" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/bob_1.jpg" alt="Bob" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #2 -->
+                <div class="grid-item flip-card-inner" foto="patricio" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/patricio_1.jpg" alt="Patricio" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #3 -->
+                <div class="grid-item flip-card-inner" foto="picador" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/picadorCriminalMutilador.webp" alt="Picador" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #4 -->
+                <div class="grid-item flip-card-inner" foto="patricio" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/patricio_1.jpg" alt="Bob" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #5 -->
+                <div class="grid-item flip-card-inner" foto="plankton" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/plankton_1.jpg" alt="Plankton" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #6 -->
+                <div class="grid-item flip-card-inner" foto="gary" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/gary.jpeg" alt="Gary" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #7 -->
+                <div class="grid-item flip-card-inner" foto="arenita" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/arenita_1.jpeg" alt="Arenita" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #8 -->
+                <div class="grid-item flip-card-inner" foto="calamardo" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/calamardo.jpg" alt="Calamardo" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #9 -->
+                <div class="grid-item flip-card-inner" foto="gary" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/gary.jpeg" alt="Gary" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #10 -->
+                <div class="grid-item flip-card-inner" foto="doncangrejo" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/donCangrejo_1.webp" alt="Don_Cangrejo" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #11 -->
+                <div class="grid-item flip-card-inner" foto="bob" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/bob_1.jpg" alt="Bob" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #12 -->
+                <div class="grid-item flip-card-inner" foto="doncangrejo" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/donCangrejo_1.webp" alt="Don_Cangrejo" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #13 -->
+                <div class="grid-item flip-card-inner" foto="picador" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/picadorCriminalMutilador.webp" alt="Picador" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #14 -->
+                <div class="grid-item flip-card-inner" foto="arenita" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/arenita_1.jpeg" alt="Arenita" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #15 -->
+                <div class="grid-item flip-card-inner" foto="calamardo" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/calamardo.jpg" alt="Calamardo" style="width:200px;height:200px;">
+                    </div>
+                </div>
+                <!-- Carta #16 -->
+                <div class="grid-item flip-card-inner" foto="plankton" onclick="rotar(this)">
+                    <div class="flip-card-front">
+                        <i class="fa-sharp fa-solid fa-question fa-4x" style="margin-top: 70px; color: rgb(77, 77, 77);"></i>
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="img/plankton_1.jpg" alt="Plankton" style="width:200px;height:200px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <!-- Model de victoria -->
+    <div class="modal fade" id="yaGano" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background-color: rgb(77, 77, 77);">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel" style="text-align: center; color: white;">¡Has ganado!</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="text-align: center;">
+                <img src="img/ganador.gif" alt="ganador" style="width: 100%; height: 100%;">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button id="reiniciar" type="button" class="btn btn-primary" style="background-color: aquamarine; border-color: aquamarine; color: rgb(77, 77, 77);">Reiniciar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="plugins/jquery/jquery-3.6.1.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/e9c0099fd9.js" crossorigin="anonymous"></script>
+</body>
+</html>
